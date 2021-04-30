@@ -89,19 +89,7 @@ void deck::init()
     populate();
     shuffle();
 }
-// std::vector<std::string> deck::init()
-// {
-//     populate();
-//     shuffle();
 
-//     std::vector<std::string> first_hand;
-//     for(std::vector<std::string>::iterator it = card.begin(); it != card.begin()+2; ++it)
-//     {
-//         first_hand.push_back(*it);
-//     }
-//     remove_cards(2);
-//     return first_hand;
-// }
 
 std::vector<std::string> deck::deal()
 {

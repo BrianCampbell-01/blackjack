@@ -127,3 +127,8 @@ bool player::dealer_choice()
    }
     return false;
 }
+
+int player::get_balance()
+{
+    return balance; 
+}
